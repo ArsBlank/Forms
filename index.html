@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,700;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <div class="container">
+      <label class="forms">
+        <span class="forms_title">Label</span>
+        <input
+          class="forms_input"
+          type="text"
+          name="name"
+          placeholder="Your name"
+        />
+      </label> 
+      <label class="forms">
+        <span class="forms_title">Password</span>
+        <input
+          class="forms_input _textarea"
+          type="password"
+          name="name"
+          placeholder="Your Bio"
+        />
+      </label> 
+
+      <label class="forms">
+        <span class="forms_title">Bio</span>
+        <textarea
+          class="forms_input"
+          type="text"
+          name="Bio"
+          placeholder="Your Bio"></textarea>
+
+      <label class="forms"
+      <span class="forms_title">Gender</span>
+<select>
+    <option>Male</option>
+    <option>Female</option>
+</select>
+<label class="checkbox">
+    <input class="checkbox__input" type="checkbox" name="text" >
+    <div class="checkbox_body">
+        <span class="checkbox_icon">
+            <span class="checkmark"></span>
+        </span>
+        <span class="checkbox_text">Text</span> 
+    </div>
+</label>
+<label class="radio">
+  <span class="radio">Enabled Selected / On</span>
+  <input class="radio"
+    type="radio"
+    name="Item"
+value="on"
+    /> 
+    <label class="radio">
+      <span class="radio">Enabled Selected / off </span>
+      <input class="radio"
+       disabled type="radio"
+        name="Item"
+    value="on"
+        />
+</label> 
+<div class="switch">
+<label class="switch">
+  <input type="switch" class="switch__input"/> 
+  <span class="switch__slides"></span>
+</label>
+</div>
+    </div>
+  </body>
+</html>
